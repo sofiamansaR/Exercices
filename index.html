@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gurrency Converter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Gurrency converter</h1>
+    <marquee>Welcome to the Online Currancu Convarter</marquee>
+    <br><br>
+    
+    <form name="converter">
+        <fieldset>
+    <label>PAK currency(Ruppes):</label>
+    <input type="number" name="rupees" required>
+    <input type="button" value="Convert" onclick="currencyConverter(converter.rupees.value)"><br><br>
+    <label>Dollar(American):</label>
+    <input id="dollar"><br><br>
+    <label>Yuan(China):</label>
+    <input id="yuan"><br><br>
+    <label>Won(Korea):</label>
+    <input id="won"><br><br>
+    <label>Dinar(Kuwait):</label>
+    <input id="dinar"><br><br>
+    <input type="reset" value="Rest From">
+    <p align="center">You press Rest Button for resing the From</p>
+</fieldset>
+
+</form>
+
+    <script src="index.js"></script>
+</body>
+</html>
